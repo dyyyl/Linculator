@@ -85,7 +85,7 @@ form {
     ". . . ."
     ". . . ."
     ". . . ."
-    ". . . equals";
+    ". title title equals";
   gap: 2rem;
 }
 
@@ -103,6 +103,16 @@ button {
 
 button[type="submit"] {
   grid-area: equals;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  grid-area: title;
+  font-size: 4rem;
+  text-align: center;
+  place-self: center;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .active {
