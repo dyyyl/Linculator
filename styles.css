@@ -108,7 +108,7 @@ button[type="submit"] {
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   grid-area: title;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   place-self: center;
   letter-spacing: 0.1rem;
