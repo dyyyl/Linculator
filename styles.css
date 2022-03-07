@@ -74,6 +74,7 @@ main {
   display: grid;
   place-content: center;
   height: 100%;
+  padding: 2rem;
 }
 
 form {
@@ -94,6 +95,7 @@ input[type="text"] {
   font-size: 3rem;
   text-align: right;
   padding-right: 1rem;
+  width: 100%;
 }
 
 button {
@@ -108,7 +110,7 @@ button[type="submit"] {
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   grid-area: title;
-  font-size: 3rem;
+  font-size: 2.65rem;
   text-align: center;
   place-self: center;
   letter-spacing: 0.1rem;
